@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif, Arial;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+  background: #ffffff;
+}
+
+.container {
+  width: 100%;
+  margin: o auto;
+}
+
+.header_first {
+  background: #ba2e1f;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  font-family: Georgia;
+  font-size: 12px;
+}
+
+.header_input {
+  margin-left: 700px;
+}
+
+.header_second {
+  color: #000000;
+  padding: 40px 20px;
+  font-family: Georgia;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.header_second h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header_ul {
+  float: right;
+  margin-left: 700px;
+}
+.header_li {
+  list-style: none;
+}
+.header_second .header_li a {
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.header_second .header_li a:hover {
+  color: #ee802f;
+}
+
+.navbar {
+  background: #333333;
+  color: #e9e8e3;
+  margin-bottom: 40px;
+  width: 100%;
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.nav_li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav_li a {
+  float: left;
+  text-decoration: none;
+  color: #e9e8e3;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav_li a:hover {
+  color: #ba2e1f;
+}
+
+.nav_li a:first-child {
+  margin-left: 220px;
+}
+
+.part1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.part1 img {
+  width: 400px;
+  height: 440px;
+  margin-right: 40px;
+}
+
+.part1 h1 {
+  font-family: Georgia;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 65px;
+}
+
+.side1 {
+  padding-top: 110px;
+  float: right;
+}
+
+.side1 p {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.side1 a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 20px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.part2 {
+  display: flex;
+  padding: 60px 30px;
+  background: #f2f2f2;
+}
+
+.about_us {
+  margin-right: 35px;
+  width: 33%;
+}
+
+.about_us h3 {
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  color: #575757;
+  margin-bottom: 60px;
+}
+
+.about_us img {
+  width: 290px;
+  height: 140px;
+  margin-bottom: 25px;
+  border: 5px solid #666666;
+}
+
+.about_us p {
+  font-family: Georgia;
+  font-size: 16px;
+  color: #575757;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.about_us a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.services {
+  margin-right: 35px;
+  width: 33%;
+}
+
+.services h3 {
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  color: #575757;
+  margin-bottom: 60px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.service img {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #666666;
+  margin-right: 10px;
+}
+
+.service h3 {
+  font-family: Georgia;
+  font-size: 20px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-family: Georgia;
+  font-size: 15px;
+  color: #575757;
+  text-align: left;
+  overflow: hidden;
+}
+
+.services a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.clients {
+  width: 33%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.clients h2 {
+  font-family: Georgia;
+  font-size: 25px;
+  font-weight: bold;
+  color: #575757;
+  margin-bottom: 60px;
+}
+
+.clients h3 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.clients p {
+  font-family: Georgia;
+  font-size: 15px;
+  color: #575757;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.clients a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.part3 {
+  display: flex;
+  padding: 30px 20px;
+}
+
+.news {
+  width: 25%;
+  border-top: 2px solid #000000;
+  margin-right: 20px;
+}
+
+.news h3 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.news p {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.links {
+  width: 25%;
+  border-top: 2px solid #000000;
+  margin-right: 20px;
+}
+
+.links h3 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.links li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #575757;
+}
+
+.links li a {
+  font-family: Georgia;
+  font-size: 15px;
+  color: #575757;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.blog {
+  width: 25%;
+  border-top: 2px solid #000000;
+  margin-right: 20px;
+}
+
+.blog h3 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.blog h4 {
+  font-family: Georgia;
+  font-size: 20px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.blog p {
+  font-family: Georgia;
+  font-size: 14px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.blog a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #ba2e1f;
+  padding-top: 15px;
+  margin-left: 160px;
+  margin-bottom: 25px;
+}
+
+.contact {
+  width: 25%;
+  border-top: 2px solid #000000;
+  margin-left: 5px;
+}
+
+.contact h3 {
+  font-family: Georgia;
+  font-size: 22px;
+  color: #575757;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.contact li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.contact li input {
+  width: 210px;
+  height: 30px;
+  padding: 5px 5px;
+  background: #f2f2f2;
+  border: 1px solid #ffffff;
+  text-align: left;
+}
+
+.contact form {
+  margin-bottom: 20px;
+}
+.contact a {
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 16px;
+  color: #ba2e1f;
+  text-align: center;
+  padding: 15px 10px;
+  margin-bottom: 25px;
+  background: #f2f2f2;
+}
+
+footer {
+  background: #e4dede;
+  padding: 30px;
+  text-align: center;
+  color: #919191;
+  width: 100%;
+}
